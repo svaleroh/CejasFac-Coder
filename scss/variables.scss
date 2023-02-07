@@ -1,0 +1,23 @@
+/* variables */
+
+$font: 'Montserrat',sans-serif;
+
+/* Colors page */
+$color1:#FFE5D9;
+$color2:#f083b4;
+$color3:#000;
+$color4:#000;
+$color5: #d9bb96;
+$color6:#afb6be;
+
+/*FIN colors*/
+
+/* fonts sizes */
+$headings: (h1: 40px,
+    h2: 32px,
+    h3:15px,
+);
+
+$h1: map-get($headings, h1);
+$h2: map-get($headings, h2);
+// fin tamaño titulos "mapas"
