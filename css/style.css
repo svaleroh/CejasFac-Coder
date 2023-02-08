@@ -311,7 +311,7 @@ section .container .face .face2 p {
   text-align: center;
 }
 
-.clicks {
+.clicks2 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   background: #f083b4;
@@ -322,7 +322,7 @@ section .container .face .face2 p {
   text-decoration: none;
   transition: all 0.2s;
 }
-.clicks:hover {
+.clicks2:hover {
   animation: fly-1 0.6s ease-in-out infinite alternate;
   background-color: #d9bb96;
 }
