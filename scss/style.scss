@@ -248,6 +248,27 @@ section .container {
     }
 }
 
+.logotipo{
+    text-align: center;
+}
+
+.clicks {
+    font-family: $font;
+    font-size: 15px;
+    background: $color2;
+    color: $color4;
+    border-radius: 15px;
+    border: none;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    &:hover {
+        animation: fly-1 0.6s ease-in-out infinite alternate;
+        background-color: $color5;
+    }
+}
+
 .nosotros-info {
     text-align: center;
     h2 {

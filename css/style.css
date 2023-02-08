@@ -307,6 +307,26 @@ section .container .face .face2 p {
   background-color: #d9bb96;
 }
 
+.logotipo {
+  text-align: center;
+}
+
+.clicks {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background: #f083b4;
+  color: #000;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.clicks:hover {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+  background-color: #d9bb96;
+}
+
 .nosotros-info {
   text-align: center;
 }
